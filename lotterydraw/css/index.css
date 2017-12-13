@@ -1,0 +1,65 @@
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.content .word_warp{
+    position: absolute;
+    left: 0;
+    top:0;
+
+}
+.content .word_warp .word{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content2{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 300px;
+    height: 50px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.content2 .word_warp2{
+    position: absolute;
+    left: 0;
+    top:0;
+
+}
+.content2 .word_warp2 .word{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn_ok{
+    margin-top: 400px;
+    text-align: center;
+    font-weight: bold;
+}
+.btn_stop{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
